@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor del login */
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Título */
+.login-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Grupo de inputs */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Labels */
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Campos de entrada */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Botones */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+/* Estilo para botón de Login */
+.login-button:first-of-type {
+  background: #667eea;
+  color: white;
+}
+
+.login-button:first-of-type:hover {
+  background: #5563c1;
+}
+
+/* Estilo para botón de Registro */
+.login-button:last-of-type {
+  background: #764ba2;
+  color: white;
+}
+
+.login-button:last-of-type:hover {
+  background: #623e8e;
+}
