@@ -3,6 +3,8 @@ import axios from "axios";
 import "../Styles/Register.css";
 import { useNavigate } from "react-router-dom";
 
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000"; // RUTA DEL SERVIDOR
+
 const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -22,7 +24,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/auth/register", {
+      const response = await axios.post(`${API_URL}/auth/register`, {
 
         email: email.trim(),
         password: password.trim(),
