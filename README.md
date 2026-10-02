@@ -4,7 +4,7 @@ Aplicación full stack de registro e inicio de sesión, construida con **React**
 
 ## 🔗 Demo en vivo
 
-- **Frontend (app):** [https://loggin-usuarios.vercel.app/login](registro-usuarios.vercel.app)
+- **Frontend (app):** [registro-usuarios.vercel.app](registro-usuarios.vercel.app)
 - **Backend (API):** [https://loginproyect-j680.onrender.com](https://loginproyect-j680.onrender.com)
 
 > ⚠️ El backend está desplegado en el plan gratuito de Render, así que la primera petición puede tardar unos segundos en responder si el servidor estaba "dormido". Además, al tratarse de un plan gratuito sin disco persistente, los datos de la base SQLite pueden reiniciarse en cada nuevo despliegue — esto es solo una demo técnica, no un entorno de producción.
